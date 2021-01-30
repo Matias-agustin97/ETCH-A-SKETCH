@@ -1,0 +1,23 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.container{
+    width: 400px;
+    height: 400px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.block{
+    background-color: #fafafa;
+    border: 2px solid gray;
+    width: 25px;
+    height: 25px;
+    transition: all linear 0.2s;
+}
+/*.block:hover{
+ background-color: hotpink;
+}
+EL HOVER EN CSS ES TEMPORAL, EN JS ES ETERNO
+*/
